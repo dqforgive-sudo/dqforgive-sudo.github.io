@@ -1453,6 +1453,12 @@ header.header {
 .links-of-author a {
   font-size: 0.8125em;
 }
+.links-of-author .fa,
+.links-of-author .fab,
+.links-of-author .far,
+.links-of-author .fas {
+  margin-right: 2px;
+}
 .sidebar .sidebar-button:not(:first-child) {
   margin-top: 15px;
 }
@@ -2286,6 +2292,13 @@ header.header {
 .post-block:last-of-type .post-eof {
   display: none;
 }
+.post-copyright ul {
+  list-style: none;
+  padding: 0.5em 1em;
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  margin: 1em 0 0;
+}
 .post-tags {
   margin-top: 40px;
   text-align: center;
@@ -2975,6 +2988,7 @@ mark.search-keyword {
 }
 .links-of-author-item {
   margin: 5px 0 0;
+  width: 50%;
 }
 .links-of-author-item a {
   box-sizing: border-box;
