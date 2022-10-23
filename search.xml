@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Promrtheus+Grafana 企业级监控部署</title>
-    <url>/2022/01/07/%E6%99%AE%E7%BD%97%E7%B1%B3%E4%BF%AE%E6%96%AF/</url>
+    <url>/2022/01/07/prometheus/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>Prometheus是最初在SoundCloud上构建的开源系统监视和警报工具包。自2012年成立以来，许多公司和组织都采用了Prometheus，该项目拥有非常活跃的开发人员和用户社区。Prometheus 于2016年加入了 Cloud Native Computing Foundation，这是继Kubernetes之后的第二个托管项目。</p>
 <p>Exporter是一个采集监控数据并通过Prometheus监控规范对外提供数据的组件，能为Prometheus提供监控的接口。</p>
 <p>Exporter将监控数据采集的端点通过HTTP服务的形式暴露给Prometheus Server，Prometheus Server通过访问该Exporter提供的Endpoint端点，即可获取到需要采集的监控数据。不同的Exporter负责不同的业务。</p>
